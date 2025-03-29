@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template-colums: 1fr 1fr;
+}
+
+.title {
+  text-align: center;
+  color: blue;
+}
+
+.form {
+  background: rgb(239, 193, 2);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  margin-top: 10px;
+  margin-button: 10px;
+  border: 1px solid black;
+  width: 60%;
+  height: 40px;
+}
